@@ -1,0 +1,1 @@
+CREATE INDEX `ledger_versions_user_created_idx` ON `ledger_versions` (`user_id`,`created_at`);

@@ -43,3 +43,9 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Personal financial source files and backups
+*.pdf
+*.PDF
+*.xlsx
+/backups/
