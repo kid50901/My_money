@@ -11,3 +11,7 @@
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
 .mobile-bottom-nav button.active:before{display:none}
+
+/* Monthly entry sorting, also available above mobile cards. */
+.entry-sort-controls{display:flex;align-items:center;gap:12px;margin:0 0 18px;flex-wrap:wrap}.entry-sort-controls>label{display:flex;align-items:center;gap:10px;font-size:11px;color:#7c8d72}.entry-sort-controls select{min-width:150px;min-height:39px}.column-sort{display:inline-flex;align-items:center;gap:6px;text-align:inherit;font:inherit;padding:5px 0;white-space:nowrap}.column-sort svg{opacity:.45;flex-shrink:0}.column-sort:hover,.column-sort.selected{color:var(--green)}.column-sort.selected svg{opacity:1}.entry-table th.right .column-sort{justify-content:flex-end}.entry-table th{padding-top:9px;padding-bottom:9px}
+@media(max-width:760px){.entry-sort-controls{gap:9px}.entry-sort-controls>label{flex:1;font-size:12px}.entry-sort-controls select{flex:1;width:0;min-width:100px;min-height:44px;font-size:16px}.entry-sort-controls>.muted{flex-basis:100%;font-size:11px}.entry-sort-controls>.secondary{min-width:86px}}
